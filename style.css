@@ -8,11 +8,15 @@
 }
 
 body{
-    background: #12b5eb;
+    background-image: url(home.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+
+   
 }
 
 ::selection{
-    color: #fff;
+    color: #be0a0a;
     background: #000000;
 }
 
@@ -40,12 +44,12 @@ body{
 .start_btn button{
     font-size: 25px;
     font-weight: 500;
-    color: #33ff33;
+    color: #f3eef4;
     padding: 15px 30px;
     outline: none;
     border: none;
     border-radius: 5px;
-    background: #fff;
+    background: #000000;
     cursor: pointer;
 }
 
@@ -82,7 +86,7 @@ body{
 
 .info_box .info-list .info span{
     font-weight: 600;
-    color: #33ff33;
+    color: #31c8ff;
 }
 .info_box .buttons{
     height: 60px;
@@ -103,7 +107,7 @@ body{
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #33ff33;
+    border: 1px solid #31c8ff;
     transition: all 0.3s ease;
 }
 
@@ -137,8 +141,8 @@ body{
 
 .quiz_box header .timer{
     color: #000000;
-    background: #b3ffb3;
-    border: 1px solid #80ff80;
+    background: #31c8ff;
+    border: 1px solid #31c8ff;
     height: 45px;
     padding: 0 8px;
     border-radius: 5px;
@@ -164,7 +168,7 @@ body{
     line-height: 30px;
     text-align: center;
     background: #80ffcc;
-    border: 1px solid #00ff99;
+    border: 1px solid #31c8ff;
     user-select: none;
 }
 
@@ -173,7 +177,7 @@ body{
     bottom: 0px;
     left: 0px;
     height: 3px;
-    background: #00ff99;
+    background: #31c8ff;
 }
 
 section{
@@ -192,7 +196,7 @@ section .option_list{
 }
 
 section .option_list .option{
-    background: #00e68a;
+    background: #31c8ff;
     border: 1px solid #00ff99;
     border-radius: 5px;
     padding: 8px 15px;
@@ -210,7 +214,7 @@ section .option_list .option:last-child{
 }
 
 section .option_list .option:hover{
-    color: #009900;
+    color: #31c8ff;
     background: #99ff99;
     border: 1px solid #008000;
 }
@@ -287,8 +291,8 @@ footer button{
     outline: none;
     color: #fff;
     border-radius: 5px;
-    background: #00cc00;
-    border: 1px solid #009933;
+    background: #31c8ff;
+    border: 1px solid #31c8ff;
     line-height: 10px;
     opacity: 0;
     pointer-events: none;
@@ -297,7 +301,7 @@ footer button{
 }
 
 footer button:hover{
-    background: #00b33c;
+    background:#31c8ff;
 }
 
 footer button.show{
@@ -323,7 +327,7 @@ footer button.show{
 
 .result_box .icon{
     font-size: 100px;
-    color: #00ff99;
+    color:#31c8ff;
     margin-bottom: 10px;
 }
 
@@ -359,25 +363,25 @@ footer button.show{
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #009933;
+    border: 1px solid#31c8ff;
     transition: all 0.3s ease;
 }
 
 .buttons button.restart{
     color: #fff;
-    background: #1aff66;
+    background: #31c8ff;
 }
 
 .buttons button.restart:hover{
-    background: #00b33c;
+    background:#31c8ff;
 }
 
 .buttons button.quit{
-    color: #1aff66;
+    color:#31c8ff;
     background: #fff;
 }
 
 .buttons button.quit:hover{
     color: #fff;
-    background: #00b33c;
+    background:#31c8ff;
 }
