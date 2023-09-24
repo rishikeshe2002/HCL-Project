@@ -50,7 +50,7 @@ let questions = [
     options: [
       "eXtensible Markup Language",
       "eXecutable Multiple Language",
-      "eXtra Multi-Program Language",
+      "eXTra Multi-Program Language",
       "eXamine Multiple Language"
     ]
   },
