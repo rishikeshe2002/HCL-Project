@@ -4,8 +4,6 @@
 
 
 > In this Quiz Application, users can respond to the quiz questions, and the quiz can be retaken after getting their responses. 
-
-> This Quiz Application is compatible with mobile devices.
 > This mini-project presents the design and implementation of an interactive Online Quiz Application using modern web technologies - JavaScript, HTML, and CSS. The project aims to create a user-friendly and engaging platform for conducting quizzes and assessments online
 
 
